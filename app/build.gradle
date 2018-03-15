@@ -31,6 +31,4 @@ dependencies {
     implementation 'com.joanzapata.iconify:android-iconify:2.2.2'
     implementation 'com.joanzapata.iconify:android-iconify-fontawesome:2.2.2'
     implementation 'com.afollestad.material-dialogs:core:0.9.4.7'
-//    implementation "android.arch.persistence.room:runtime:1.0.0"
-//    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
 }

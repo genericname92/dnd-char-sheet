@@ -8,8 +8,6 @@ import android.content.Context;
  * Created by simonhsieh on 3/9/18.
  */
 public final class CharacterDatabaseManager extends SQLiteOpenHelper{
-    // To prevent someone from accidentally instantiating the contract class,
-    // make the constructor private.
     private static final String DATABASE_NAME = "characterSheets";
     private static final int DATABASE_VERSION = 1;
     private static final String TABLE_NAME = "characters";
