@@ -5,48 +5,48 @@ package com.example.simonhsieh.ddcharactersheet.model;
  */
 
 public class Attributes {
-    private int _strength;
-    private int _dexterity;
-    private int _constitution;
-    private int _intelligence;
-    private int _wisdom;
-    private int _charisma;
+    private int strength;
+    private int dexterity;
+    private int constitution;
+    private int intelligence;
+    private int wisdom;
+    private int charisma;
 
     public Attributes(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma) {
-        this._strength = strength;
-        this._dexterity = dexterity;
-        this._constitution = constitution;
-        this._intelligence = intelligence;
-        this._wisdom = wisdom;
-        this._charisma = charisma;
+        this.strength = strength;
+        this.dexterity = dexterity;
+        this.constitution = constitution;
+        this.intelligence = intelligence;
+        this.wisdom = wisdom;
+        this.charisma = charisma;
     }
 
     public int getStrength() {
-        return this._strength;
+        return this.strength;
     }
 
     public int getDexterity() {
-        return this._dexterity;
+        return this.dexterity;
     }
 
     public int getConstitution() {
-        return this._constitution;
+        return this.constitution;
     }
 
     public int getIntelligence() {
-        return this._intelligence;
+        return this.intelligence;
     }
 
     public int getWisdom() {
-        return this._wisdom;
+        return this.wisdom;
     }
 
     public int getCharisma() {
-        return this._charisma;
+        return this.charisma;
     }
 
     public void setStrength(int strength) {
-        this._strength = strength;
+        this.strength = strength;
         // TODO: propagate changes to db
     }
 }
